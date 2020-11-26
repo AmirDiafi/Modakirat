@@ -1,0 +1,33 @@
+.drawer {    
+    height: 100%;
+    display: inline-block;
+    transition: all .2s linear;
+    position: fixed;
+    background: linear-gradient(0,#000000, #f44336);
+    z-index: 9;
+    width: 250px;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 3px 0 5px #000000b8;
+    margin-top: -50px
+}
+
+.drawer .close-drawer {
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.drawer label{
+    margin: 10px auto;
+    display: block
+}
+
+.drawer select {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-top: 10px
+}

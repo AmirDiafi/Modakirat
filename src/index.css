@@ -1,6 +1,5 @@
 html {
-    scroll-behavior: smooth;
-    direction: rtl;
+    scroll-behavior: smooth
 }
 
 .overlay {

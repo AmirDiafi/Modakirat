@@ -1,6 +1,6 @@
 {
-  "name": "monsifnaoui",
-  "version": "0.1.1",
+  "name": "modakirat",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

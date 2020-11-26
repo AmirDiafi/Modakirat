@@ -1,6 +1,6 @@
 {
-  "short_name": "Moncif Noui",
-  "name": "Moncif Noui Business Website",
+  "short_name": "Modakirat",
+  "name": "Modakirat is your first and best sourse for all of the graduation memories.",
   "icons": [
     {
       "src": "favicon.jpg",
@@ -21,5 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#ffffff",
-  "background_color": "#2196f3"
+  "background_color": "#F44336"
 }
