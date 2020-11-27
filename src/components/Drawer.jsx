@@ -34,8 +34,12 @@ class Drawer extends React.Component {
                     <select name="branch" id="stage" onChange={this.handleChange}>
                         <option value="all">All</option>
                         <option value="psychology">Psychology</option>
-                        <option value="economic">Economics</option>
-                        <option value="physic">Physic</option>
+                        <option value="physic">Sociology</option>
+                        <option value="economic">Economic</option>
+                        <option value="rights">Rights</option>
+                        <option value="maths">Maths and Informatic</option>
+                        <option value="medical">Medical</option>
+                        <option value="material_science">Material Science</option>
                     </select>
 		    </label>
             </div>
