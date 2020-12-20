@@ -6,10 +6,10 @@
 }
 
 .cards .card-item {
-    background: #F44336;
+    background: #9c27b0;
     color: #fff;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,6 +71,7 @@
     margin: 0 3px;
     color: #fff;
     border-radius: 10px;
+    text-align: center;
 }
 
 @media(max-width: 550px) {

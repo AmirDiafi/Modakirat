@@ -1,47 +1,63 @@
 import React from 'react'
 import './stylesheets/drawer.css'
 import {FaTimes} from 'react-icons/fa'
+import {FaTwitter, FaLinkedin, FaYoutube, FaGithub} from 'react-icons/fa'
 
 class Drawer extends React.Component {
-    state = { 
-        branch: 'all',
-        stage: 'all'
-    }
-
-    handleChange = (event) => {
-        event.preventDefault()
-        let {name, value} = event.target
-        this.setState({[name]: value})
-        setTimeout(()=>this.props.onFilter(this.state.branch, this.state.stage),0)
-    }
+    
 
     render() { 
         return (
             <div className="drawer" style={this.props.style}>
-		<div className="close-drawer" onClick={()=>this.props.handleDrawer()}><FaTimes /></div>
-                <h4>Filter</h4>
-                <hr/>
-		    <label htmlFor="stage">By Stage
-                    <select name="stage" id="stage" onChange={this.handleChange}>
-                        <option value="all">All</option>
-                        <option value="license">License</option>
-                        <option value="master">Master</option>
-                        <option value="doctora">Doctora</option>
-                    </select>
-		    </label>
-                <hr/>
-		    <label htmlFor="branch">By Branch
-                    <select name="branch" id="stage" onChange={this.handleChange}>
-                        <option value="all">All</option>
-                        <option value="psychology">Psychology</option>
-                        <option value="physic">Sociology</option>
-                        <option value="economic">Economic</option>
-                        <option value="rights">Rights</option>
-                        <option value="maths">Maths and Informatic</option>
-                        <option value="medical">Medical</option>
-                        <option value="material_science">Material Science</option>
-                    </select>
-		    </label>
+                <div 
+                    className="close-drawer" 
+                    onClick={()=>this.props.handleDrawer('close')}>
+                    <FaTimes />
+                </div>
+		<div className="about">
+		    <p>
+		    This weeb application made specially for the Algerian students for helping them and making the memories easy
+		    for all of them.
+		    </p>
+		    <hr />
+		    <footer className="text-center">
+		    <a href="https://amirdiafi.com" className="about-me">designed & developed by 
+                        <img 
+                            loading="lazy"
+                            src='https://drive.google.com/uc?export=view&id=1eJb2Cl35Y-Ctx3x8UkDXtBV9owrvAjQx' 
+                            alt="Amir Diafi" />
+		    <b>Amir Diafi</b></a>
+                    <div className="footer-links col col-12">
+            <a className='twitter'
+                href="https://twitter.com/amir_diafiU" 
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaTwitter/>
+            </a>
+            <a className='linkedin'
+                href="https://www.linkedin.com/in/amirdiafi" 
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaLinkedin/>
+            </a>
+            <a className='youtube'
+                href="https://www.youtube.com/channel/UCgbqyUzyD2IfqYoc0RcS2MA" 
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaYoutube/>
+            </a>
+            <a className='github'
+                href="https://github.com/AmirDiafi" 
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaGithub/>
+            </a>
+            </div>
+		    <hr />
+		    <p>this peace of software made with <a href="https://react.com">React</a></p>
+		    <p>2020 &copy; Amir Diafi</p>
+		    </footer>
+		</div>
             </div>
         )
     }

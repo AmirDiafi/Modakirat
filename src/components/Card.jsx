@@ -20,8 +20,8 @@ class Card extends React.Component {
 		    <p className="date">Data: {this.props.data.date}</p>
                     <div className="tags">
                         <span>{this.props.data.grade}</span>
-                        <span>{this.props.data.fer3}</span>
                         <span>{this.props.data.specialty}</span>
+                        <span>{this.props.data.fer3}</span>
                     </div>
                 </div>
             </div>

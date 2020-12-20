@@ -3,11 +3,10 @@
     display: inline-block;
     transition: all .2s linear;
     position: fixed;
-    background: linear-gradient(0,#000000, #f44336);
+    background: linear-gradient(0,#000000, #9C27B0);
     z-index: 9;
     width: 250px;
     color: #fff;
-    padding: 10px;
     box-shadow: 3px 0 5px #000000b8;
     margin-top: -50px
 }
@@ -16,18 +15,82 @@
     font-size: 20px;
     text-align: right;
     cursor: pointer;
+    padding: 10px;
 }
 
-.drawer label{
+.drawer .close-drawer svg{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    padding: 8px;
+    transition: all .2s linear;
+    background: #bbbbbb85;
+}
+
+.drawer .about > p {
+    padding: 10px
+}
+
+.drawer footer{
+    background: #00000059;
+    color: #eee;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.drawer footer img {
+    display: block;
+    width: 120px;
+    height: 120px;
     margin: 10px auto;
+    border-radius: 20px;
+    filter: drop-shadow(2px 4px 6px black);
+    transition: all .21s linear;
+    padding: 4px;
+    border: 1px solid #ffffff60;
+}
+
+.drawer footer .about-me:hover img {
+    transform: scale(.9)
+}
+
+.drawer footer a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
     display: block
 }
 
-.drawer select {
-    width: 100%;
-    padding: 5px 10px;
-    border-radius: 30px;
-    border: none;
-    outline: none;
-    margin-top: 10px
+.drawer footer .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drawer footer .footer-links a {
+    margin: 0 10px;
+    font-size: 30px;
+    color: #2196F3
+}
+
+.drawer footer .footer-links a.twitter {
+    color: #00acee
+}
+
+.drawer footer .footer-links a.linkedin {
+    color: #0e76a8
+}
+
+.drawer footer .footer-links a.github {
+    color: #ffffff
+}
+
+.drawer footer .footer-links a.youtube {
+    color: red
+}
+
+.drawer footer .footer-links a:hover {
+    color: #fff;
+    filter: none
 }

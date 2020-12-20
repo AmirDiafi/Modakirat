@@ -20,18 +20,23 @@ class Main extends React.Component {
     this.setState({isDark: event.target.value==='dark'?true:false})
   }
 
- handleDrawer = () => {
-    this.setState({isOpen: !this.state.isOpen})
+ handleDrawer = (message) => {
+    this.setState({isOpen: message==='close'?false:true})
  }
 
   render () {
     return (
       <React.Fragment>
         <Drawer 
-	  handleDrawer={this.handleDrawer}
-          onFilter={this.onFilter} 
+	        handleDrawer={this.handleDrawer}
           style={{marginLeft: this.state.isOpen?0:'-250%'}} />
-        <Content isChecked={this.state.isDark} handleTheme={this.handleTheme} style={{background: this.state.isDark?'#000':'#fff'}} handleDrawer={this.handleDrawer} data={this.state.data} />
+        <Content 
+          style={{background: this.state.isDark?'#000':'#fff'}}
+          isChecked={this.state.isDark} 
+          handleTheme={this.handleTheme}
+          handleDrawer={this.handleDrawer}
+          onFilter={this.onFilter}
+          data={this.state.data} />
       </React.Fragment>
     )
   }

@@ -1,14 +1,200 @@
 [
     {
-	"id": 1,
-	"date": "26/11/2020",
-        "title": "This is Sante Psychology",
+        "id": 1,
+        "date": "2013",
+        "title": "أثر قانون المنافسة على مبدأ حماية المستهلك",
         "stage": "Master all",
-        "branch": "Psychology all",
-        "specialty": "Sante",
+        "branch": "droit all",
+        "specialty": "Droit",
         "grade": "Master",
-        "fer3": "Psychology",
-        "link": "https://pdfhost.io/v/0Z45L20bH_resumepdf.pdf",
-	"linkView": "https://pdfhost.io/edit?doc=1bc080f5-4937-4c72-a2dc-056a2b60a871"
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/A~U.ICwbx__pdf.pdf"
+    },
+    {
+        "id": 2,
+        "date": "2018-2019",
+        "title": "الاتفاقيات الثنائية المتعلقة بالاستثمارات",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/RKshbigoN_.pdf"
+    },
+    {
+        "id": 3,
+        "date": "2018-2019",
+        "title": "الآليات القانونية لضبط المنافسة الحرة على ضوء الأمر رقم03-03 المعدل والمتمم",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/VgJtSgoZo_Microsoft_Word_.pdf"
+    },
+    {
+        "id": 4,
+        "date": "2020-2019",
+        "title": "المركز القانوني للمجلس الوطني للاستثمار على ضوء القانون رقم 16-09 المتعلق بترقية الاستثمار",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/gO33iK1V8_.pdf"
+    },
+    {
+        "id": 5,
+        "date": "2017-2018",
+        "title": "المسؤولية القانونية للبنك المركزي في مراقبة تصدي البنوك لجريمة تبييض الأموال",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/iaKiY.wnV__pdf.pdf"
+    },
+    {
+        "id": 6,
+        "date": "2017-2018",
+        "title": "الممارسة النقابية في تشريع العمل الجزائري",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/NOYlwKtWr__pdf.pdf"
+    },
+    {
+        "id": 7,
+        "date": "2018-2019",
+        "title": "النظام القانوني للتقييس في الجزائر",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/DL4HZ50bJ_Microsoft_Word_page_de_garde.pdf"
+    },
+    {
+        "id": 8,
+        "date": "2016-2017",
+        "title": "تراجع مبدأ سلطان الإرادة في عقد الاعتماد الإيجاري",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/LUTWGiC00__pdf.pdf"
+    },
+    {
+        "id": 9,
+        "date": "2018-2019",
+        "title": "تسوية النزاعات الناشئة عن عقد تفويض المرفق العام",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/dHtOJ0Jc5__pdf.pdf"
+    },
+    {
+        "id": 10,
+        "date": "2017-2018",
+        "title": "تقنين الترقية العقارية في ظل أحكام القانون 1104 بين القبول والرفض",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "القانون العقاري",
+        "link": "https://pdfhost.io/v/0J5yNvY0T__1104_pdf.pdf"
+    },
+    {
+        "id": 11,
+        "date": "2018-2019",
+        "title": "تمييز المنافسة غير المشروعة عن جريمة التقليد",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/FbhN8DYgw_.pdf"
+    },
+    {
+        "id": 12,
+        "date": "2018-2019",
+        "title": "جريمة خيانة الأمانة في عقد الإعتماد الإيجاري",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/XbWe3xv.._Microsoft_Word_0_.pdf"
+    },
+    {
+        "id": 13,
+        "date": "2018-2019",
+        "title": "حماية حقوق الملكية الفكرية في إطارا لمنظمة العالمية للملكية الفكرية",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/s63QhtIWo_Microsoft_Word_0_Copie.pdf"
+    },
+    {
+        "id": 14,
+        "date": "2019",
+        "title": "خصوصيات القمع الإداري في مجال المنافسة",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "القانون العام الاقتصادي",
+        "link": "https://pdfhost.io/v/h8lVChKbt_Microsoft_Word_.pdf"
+    },
+    {
+        "id": 15,
+        "date": "2018-2019",
+        "title": "سلطات القاضي إلاداري في المنازعات الضريبية",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/5RQNkX9M1_Microsoft_Word_0_.pdf"
+    },
+    {
+        "id": 16,
+        "date": "2018",
+        "title": "سياسة الاستثمار في الجزائر",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/epCrFKDFD__pdf.pdf"
+    },
+    {
+        "id": 17,
+        "date": "2018-2019",
+        "title": "شرط احترام الدولة لالتزاماتها الخاصة في مجال الاستثمار",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/lnMGohA1A_Microsoft_Word_page_de_garde.pdf"
+    },
+    {
+        "id": 18,
+        "date": "2016-2017",
+        "title": "تأسيس شركات التأمين في القانون الجزائري",
+        "stage": "Master all",
+        "branch": "droit all",
+        "specialty": "Droit",
+        "grade": "Master",
+        "fer3": "قـانون العام للأعمال",
+        "link": "https://pdfhost.io/v/ZKzvMLCfi__pdf.pdf"
     }
 ]
