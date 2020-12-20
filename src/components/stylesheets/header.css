@@ -1,5 +1,6 @@
 header {
-    background: linear-gradient(0,#000000, #9C27B0);
+    background: linear-gradient(0deg, #000000cf, #009688 );
+    filter: drop-shadow(2px 4px 6px black);
     color: #fff;
     padding: 10px;
     margin-top: 50px
@@ -9,10 +10,15 @@ header .logo{
     font-size: 80px
 }
 
+header .logo svg {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
 header h1 {
     margin-top: -30px;
     font-size: 30px;
-    font-style: italic;
+    font-weight: 500;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 @media (max-width: 450px) {
