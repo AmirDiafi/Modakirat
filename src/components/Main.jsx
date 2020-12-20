@@ -2,6 +2,7 @@ import React from 'react';
 import Drawer from './Drawer'
 import Content from './Content'
 import Data from './Data.json'
+import Alert from './Alert'
 
 class Main extends React.Component {
 
@@ -27,6 +28,7 @@ class Main extends React.Component {
   render () {
     return (
       <React.Fragment>
+	<Alert />
         <Drawer 
 	        handleDrawer={this.handleDrawer}
           style={{marginLeft: this.state.isOpen?0:'-250%'}} />

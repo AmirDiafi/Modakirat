@@ -1,0 +1,30 @@
+.offline-alert {
+    background: #042522;
+    color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 10;
+    filter: drop-shadow(2px 4px 6px black);
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offline-alert p {
+    background: #ff3b3bc9;
+    color: #000c;
+    border: none;
+    font-weight: 500;
+    margin: 0 15px 0 0;
+}
+
+.offline-alert button {
+    background: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 30px;
+    
+}
