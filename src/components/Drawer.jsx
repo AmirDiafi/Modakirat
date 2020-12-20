@@ -52,9 +52,8 @@ class Drawer extends React.Component {
                 rel="noopener noreferrer">
                 <FaGithub/>
             </a>
-            </div>
 		    <hr />
-		    <p>this peace of software made with <a href="https://react.com">React</a></p>
+            </div>
 		    <p>2020 &copy; Amir Diafi</p>
 		    </footer>
 		</div>
